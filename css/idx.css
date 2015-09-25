@@ -1,0 +1,488 @@
+/*importing fonts
+still need to do the following
+1 make font size lighter by only importing the basic character sets
+*/
+/*
+ * Web Fonts from fontspring.com
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ * (c) 2010-2014 Fontspring
+ * The fonts included are copyrighted by the vendor listed below.
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/licenses/fontsite/webfont
+ */
+@font-face {
+    font-family: handel_gothic_fsbold;
+    src: url('../fonts/HandelGothic-Bold-webfont.eot');
+    src: url('../fonts/HandelGothic-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HandelGothic-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/HandelGothic-Bold-webfont.woff') format('woff'),
+         url('../fonts/HandelGothic-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/HandelGothic-Bold-webfont.svg#handel_gothic_fsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CODE_LIGHT;
+    src: url('../fonts/code_light.svg#code_lightregular') format('svg');
+    src: url('../fonts/code_light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/code_light.woff') format('woff'),
+         url('../fonts/code_light.ttf') format('truetype'),
+         url('../fonts/code_light.svg#code_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'code_pro_demoregular';
+    src: url('../fonts/Code_Pro_Demo-webfont.eot');
+    src: url('../fonts/Code_Pro_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Code_Pro_Demo-webfont.woff2') format('woff2'),
+         url('../fonts/Code_Pro_Demo-webfont.woff') format('woff'),
+         url('../fonts/Code_Pro_Demo-webfont.ttf') format('truetype'),
+         url('../fonts/Code_Pro_Demo-webfont.svg#code_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*changing highlight color
+1 check if works on ie and opera and older chrome
+*/
+::selection {
+    color: #FFFFFF;
+    background: #66CCFF;
+}
+
+::-moz-selection {
+    color: #FFFFFF;
+    background: #66CCFF;
+}/*for mozilla firefox*/
+
+html, body {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url('../images/VOSS.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 0;
+}
+
+.hero .overlay {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1em;
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+section {
+    padding: 1em;
+    color: white;
+}
+
+.voss img {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 50%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.social-media .facebook iframe, .social-media .twitter iframe {
+    width: 1px !important;
+    min-width: 100% !important;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.fly-thru, #fly-thru-placeholder {
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 300px;
+	border-radius:6px;
+}
+
+#fly-thru-placeholder {
+    background: #222222;
+    padding: 2em;
+    text-align: center;
+}
+
+/*headers and paragraph changes*/
+h1 {
+    font-family: handel_gothic_fsbold;
+    font-size: 400%;
+    font-variant: small-caps;
+    display: block;
+}
+
+h2 {
+    font-family: handel_gothic_fsbold;
+    font-size: 200%;
+    font-variant: small-caps;
+    display: block;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: handel_gothic_fsbold;
+    font-size: 100%;
+    font-variant: small-caps;
+    display: block;
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+ul, li {
+    list-style-type: disc;
+    margin-left: 1em;
+}
+
+/*changing links*/
+a:link {
+    text-decoration: none;
+}
+
+/*top menu*/
+
+/*.menu{position: relative; clear: both; background: black; margin: 0 auto;}
+	.menu em{font-size: 120%; margin-left: 0; margin-right: 0px; position: relative; bottom: 10px; right: 20px}*/
+header {
+    color: white;
+}
+
+header li {
+    list-style-type: none;
+    margin: 0;
+}
+
+header a {
+    color: white;
+}
+
+.navbar {
+    min-height: 80px;
+    line-height: 80px;
+    margin: 0;
+    border: none;
+}
+
+.container > .navbar-header {
+    margin-left: 0;
+}
+
+@media (min-width: 992px) {
+    .navbar > .container .navbar-brand {
+        margin-left: 0;
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    padding-top: 5px;
+}
+
+.navbar-top .navbar-toggle {
+    margin: 0;
+    padding: 0 1.5em;
+    border: none;
+}
+
+.navbar-text {
+    line-height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.collapse.in > .navbar-nav, .collapsing > .navbar-nav {
+    margin: 0;
+}
+
+.in.top-links, .collapsing.top-links {
+    right: 0;
+}
+
+.in.top-links li, .collapsing.top-links li {
+    float: none;
+}
+
+.top-links a:focus {
+    background-color: inherit !important;
+    color: inherit;
+}
+
+.menu, .planet-wrapper {
+    margin: 0 auto;
+}
+
+.menu {
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 1em;
+}
+
+.logo em {
+    margin-left: 0.5em;
+    font-style: italic;
+}
+
+.logo img {
+    float: left;
+    padding-top: 5px;
+}
+
+.top-links {
+    background-color: black;
+}
+
+.top-links li {
+    float: left;
+}
+
+.top-links ul > li > a {
+    height: 80px;
+    line-height: 80px;
+    display: block;
+    padding: 0 0.75em;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.top-links ul > li > a:hover {
+    background-color: #333;
+}
+
+/*celestial menu*/
+.planet-wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+}
+
+.planet-links {
+    text-align: center;
+    font-family: "code_pro_demoregular";
+    background: #949599;
+    min-height: inherit;
+    max-height: 24.5em;
+    line-height: 2em;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+.planet-links ul {
+    margin: 0 1.5em;
+    text-align: justify;
+    height: 0px;
+}
+
+.planet-links ul.in {
+    height: inherit;
+}
+
+.planet-links ul:after {
+    content:' ';
+    display:inline-block;
+    width: 100%;
+    height: 0;
+}
+
+.planet-links li {
+    text-align: center;
+}
+
+.planet-links button {
+    background: none;
+    border: none;
+    color: black;
+    margin: 0 auto;
+}
+
+.planet-links button:focus {
+    outline: none;
+}
+
+#orb {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .planet-links {
+        height: 2em;
+    }
+
+    .planet-links ul {
+        height: inherit;
+        visibility: visible;
+        display: block;
+    }
+
+    .planet-links li {
+        display: inline-block;
+    }
+    
+    #orb {
+        display: block;
+    }
+}
+
+.planet-links li a {
+    letter-spacing: 0.02em;
+    color: #000000;
+    transition: color 0.15s;
+}
+
+/** Planet link colors **/
+
+#sun a:hover { color: #F99D1C; }
+#mercury a:hover { color: #F1F1F1; }
+#venus a:hover { color: #D7C3A3; }
+#earth a:hover { color: #D3DDDE; }
+#mars a:hover { color: #BD4415; }
+#jupiter a:hover { color: #DBA360; }
+#saturn a:hover { color: #FDC175; }
+#uranus a:hover { color: #D6FDFC; }
+#neptune a:hover { color: #96ADD9; }
+#asteroid a:hover, #kuiper a:hover { color: #D1D1D1; }
+
+/** Orb colors and positions **/
+#orb {
+    position: absolute;
+    z-index: 0;
+    transition: all 400ms;
+}
+
+#orb.inactive { top: 2em; }
+#orb.active { top: 1.6em; }
+
+/* Sizes of orb for different planets */
+#orb.mercury, #orb.asteroid, #orb.kuiper {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+}
+
+#orb.venus, #orb.mars {
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+}
+
+#orb.earth {
+    height: 3em;
+    width: 3em;
+    border-radius: 3em;
+}
+
+#orb.uranus, #orb.neptune {
+    height: 7em;
+    width: 7em;
+    border-radius: 7em;
+}
+
+#orb.saturn {
+    height: 8em;
+    width: 8em;
+    border-radius: 8em;
+}
+
+#orb.jupiter {
+    height: 9em;
+    width: 9em;
+    border-radius: 9em;
+}
+
+#orb.sun {
+    height: 10em;
+    width: 10em;
+    border-radius: 10em;
+}
+
+/* Colors */
+#orb.sun { background: #F99D1C; }
+#orb.mercury { background: #F1F1F1; }
+#orb.venus { background: #D7C3A3; }
+#orb.earth { background: #D3DDDE; }
+#orb.mars { background: #BD4415; }
+#orb.jupiter { background: #DBA360; }
+#orb.saturn { background: #FDC175; }
+#orb.uranus { background: #D6FDFC; }
+#orb.neptune { background: #96ADD9; }
+#orb.asteroid, #orb.kuiper { background: #D1D1D1; }
+
+/** Positions for medium layout **/
+@media (min-width: 992px) {
+    #orb.sun { left: -47px; }
+    #orb.mercury { left: 103.5px; }
+    #orb.venus { left: 176px; }
+    #orb.earth { left: 233px; }
+    #orb.mars { left: 304.5px; }
+    #orb.asteroid { left: 418px; }
+    #orb.jupiter { left: 459.7px; }
+    #orb.saturn { left: 549px; }
+    #orb.uranus { left: 638px; }
+    #orb.neptune { left: 721px; }
+    #orb.kuiper { left: 878px; }
+}
+
+/** Positions for large layout **/
+@media (min-width: 1200px) {
+    #orb.sun { left: -46px; }
+    #orb.mercury { left: 124px; }
+    #orb.venus { left: 216.5px; }
+    #orb.earth { left: 293px; }
+    #orb.mars { left: 384.45px; }
+    #orb.asteroid { left: 518px; }
+    #orb.jupiter { left: 580px; }
+    #orb.saturn { left: 689.5px; }
+    #orb.uranus { left: 797px; }
+    #orb.neptune { left: 901px; }
+    #orb.kuiper { left: 1077px; }
+}
+
+/*footer*/
+#footer {
+    background: #101213;
+    margin: 0;
+}

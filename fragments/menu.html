@@ -1,0 +1,85 @@
+<!--This block of code is for the menu-->
+<!--in a href is to indicate to computer to start at root directory-->
+<!--<li id="home"><a href="index.html">Home</li>-->
+<header>
+    <a href="#wrapper" class="sr-only sr-only-focusable">Skip to main content</a>
+<nav class="navbar navbar-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-links">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">
+                <img src="images/VossLogoScaled.png" alt="VOSS Home">
+            </a>
+            <em class="navbar-text visible-lg">Visiting Our Solar System</em>
+        </div>
+
+        <div class="collapse navbar-collapse top-links" id="top-links">
+            <ul class="nav navbar-nav navbar-right">
+                <li id="visit"><a href="visit.php">Visit</a></li>
+                <li id="teachers"><a href="teachers.php"><span class="hidden-sm">For </span>Teachers</a></li>
+                <li id="contact"><a href="contact.php">Contact<span class="hidden-sm"> Us</span></a></li>
+                <li id="behindScenes"><a href="behindScenes.php">Behind the Scenes</a></li>
+                <li id="games"><a href="games.php"><span class="hidden-sm">Interactive </span>Games</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar planet-links">
+    <div class="planet-wrapper container">
+        <span><button type="button" class="visible-xs visible-sm collapsed" data-toggle="collapse" data-target="#planet-link-list">Show/Hide Planets</button></span>
+        <ul id="planet-link-list" class="collapse">
+            <li id="sun"><a href="sun.php">Sun</a></li>
+            <li id="mercury"><a href="mercury.php">Mercury</a></li>
+            <li id="venus"><a href="venus.php">Venus</a></li>
+            <li id="earth"><a href="earth.php">Earth</a></li>
+            <li id="mars"><a href="mars.php">Mars</a></li>
+            <li id="asteroid"><a href="asteroid.php">Asteroid Belt</a></li>
+            <li id="jupiter"><a href="jupiter.php">Jupiter</a></li>
+            <li id="saturn"><a href="saturn.php">Saturn</a></li>
+            <li id="uranus"><a href="uranus.php">Uranus</a></li>
+            <li id="neptune"><a href="neptune.php">Neptune</a></li>
+            <li id="kuiper"><a href="kuiper.php">Kuiper Belt</a></li>
+        </ul>
+        <div id="orb" class="<?php echo $orb_class; ?>"></div>
+    </div>
+</nav>
+<!--
+    <nav class="menu navbar container">
+        <div class="logo">
+            <a href="index.php">
+                <img src="images/vossLogoScaled.png" alt="VOSS Home">
+            </a>
+            <em class="hidden-md hidden-sm hidden-xs">Visiting Our Solar System</em>
+        </div>
+        <ul class="top-links navbar-right">
+            <li id="visit"><a href="visit.php">Visit</a></li>
+            <li id="teachers"><a href="teachers.php">For Teachers</a></li>
+            <li id="contact"><a href="contact.php">Contact Us</a></li>
+            <li id="behindScenes"><a href="behindScenes.php">Behind the Scenes</a></li>
+            <li id="games"><a href="Game%20tab.php">Interactive Games</a></li>
+        </ul>
+    </nav>
+    <nav class="planet-links navbar">
+        <div class="planet-wrapper container">
+            <ul>
+                <li id="sun"><a href="sun.php">Sun</a></li>
+                <li id="mercury"><a href="mercury.php">Mercury</a></li>
+                <li id="venus"><a href="venus.php">Venus</a></li>
+                <li id="earth"><a href="earth.php">Earth</a></li>
+                <li id="mars"><a href="mars.php">Mars</a></li>
+                <li id="asteroid"><a href="asteroid.php">Asteroid Belt</a></li>
+                <li id="jupiter"><a href="jupiter.php">Jupiter</a></li>
+                <li id="saturn"><a href="saturn.php">Saturn</a></li>
+                <li id="uranus"><a href="uranus.php">Uranus</a></li>
+                <li id="neptune"><a href="neptune.php">Neptune</a></li>
+                <li id="kuiper"><a href="kuiper.php">Kuiper Belt</a></li>
+            </ul>
+        </div>
+        <div id="orb"></div>
+    </nav>
+-->
+</header>

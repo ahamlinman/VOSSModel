@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>VOSS Model | Home </title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel ="stylesheet" type="text/css" href="css/idx.css">
+		<link rel="stylesheet" type="text/css" href="css/wrapper.css">
+		<link rel="shortcut icon" href="favicon.ico"> <!--the picture that appears on your browser tabs-->
+	</head>
+
+	<body>
+		<!--This block of code is for the menu-->
+				<!--in a href is to indicate to computer to start at root directory-->
+				<!--<li id="home"><a href="index.html">Home</a></li>-->
+		<div class="wrapper">
+			<nav class="menu">
+				<a href="index.html"><img class="logo" src="images/vossLogoScaled.png" alt="VOSS Home"></a>	<!--the slash-->
+				<!--<em>Visiting Our Solar System</em>-->
+				<ul id="topMenu">
+					<li><em>Visiting Our Solar System</em></li>
+					<li id="visit"><a href="visit.html">Visit</a></li>
+					<li id="teachers"><a href="teachers.html">For Teachers</a></li>
+					<li id="contact"><a href="contact.html">Contact Us</a></li>
+					<!--<li id="flythru"><a href="flythru.html">Virtual Simulation</a></li>-->
+					<li id="students"><a href="../www/index.html">Behind the Scenes</a></li>
+				</ul>
+			</nav>
+			<nav id="celestMenu">
+					<!--<div id="explore">Explore our system:</div>-->
+					<ul>
+						<li id="sun"><a href="sun.html">Sun</a></li>
+						<li id="mercury"><a href="mercury.html">Mercury</a></li>
+						<li id="venus"><a href="venus.html">Venus</a></li>
+						<li id="earth"><a href="earth.html">Earth</a></li>
+						<li id="mars"><a href="mars.html">Mars</a></li>
+						<li id="asteroid"><a href="asteroid.html">Asteroid Belt</a></li>
+						<li id="jupiter"><a href="jupiter.html">Jupiter</a></li>
+						<li id="saturn"><a href="saturn.html">Saturn</a></li>
+						<li id="uranus"><a href="uranus.html">Uranus</a></li>
+						<li id="neptune"><a href="neptune.html">Neptune</a></li>
+						<li id="kuiper"><a href="kuiper.html">Kuiper Belt</a></li>
+						<!--<li id="arrow" title="Hide menu"><a href="close.js">^</a></li> <!--title is the helper text that appears if you hover your mouse over something-->
+					</ul>
+			</nav>
+			<!--This block of code is for everything else on the main page-->
+			<div id="imageSlide">
+				<ul>
+					<li>Amazing content #1</li>
+					<li>Amazing content #2</li>
+					<li>Amazing content #3</li>
+				</ul>
+			</div>
+			<div class="rightWrapper">
+				<div class="text">
+					<h1>The Sun</h1>
+					<p><strong>The sun</strong> is the star at the center of the Solar System. Behold this 1,392,674 kilometer (865,374 mile) wide ball of hot plasma interwoven with ultra-powerful magnetic fields. Simply by looking at the diameter, if you line up Earth from one pole of the Sun to the other pole, it will take 109 of our own freaking planet to pass through the center and backout. The sun is so huge - it accounts for <strong>99.86%</strong> of the total mass of our entier Solar System.</p>
+				</div>
+				<img src="images/VOSS.png" alt="This is a freaking image!">
+
+			</div>		
+			<div class="leftWrapper">
+				<div class="text">
+					<h1>The Sun</h1>
+					<p><strong>The sun</strong> is the star at the center of the Solar System. Behold this 1,392,674 kilometer (865,374 mile) wide ball of hot plasma interwoven with ultra-powerful magnetic fields. Simply by looking at the diameter, if you line up Earth from one pole of the Sun to the other pole, it will take 109 of our own freaking planet to pass through the center and backout. The sun is so huge - it accounts for <strong>99.86%</strong> of the total mass of our entier Solar System.</p>
+				</div>
+				<img src="images/VOSS.png" alt="This is a freaking image!">
+			</div>
+		</div>
+		
+		<h2>About Us</h2>
+		<p>Why do we need a About Us tag at the bottom? Didn't they read it at the home page?</p>
+		<h2>Contact Us</h2>
+		<p>I have mixed feeling about this one: might be good, might be bad</p>
+	</body>
+
+</html>

@@ -1,0 +1,144 @@
+#loading-animation-sun{
+	height: 50px;
+	width: 50px;
+	background-color: #FFF;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 50px;
+	box-shadow: 0px 0px 25px #FFA50A;
+	opacity: 100%;
+}
+
+.loading-curtain{
+	height: 100%;
+	width: 100%;
+	background-color: #000;/*black*/
+	z-index: 10;/*in front*/
+	margin: 0 0 0 0;
+	position: absolute;
+	transition: all 1.5s;
+	-webkit-transition: all 1.5s;
+}
+
+.no-js .loading-curtain {
+	display: none;
+}
+
+.loading-curtain.end{
+	opacity: 0;
+	visibility: hidden;	
+	
+}
+
+/*************************************************************************************
+	/								ACTUAL ANIMATIONS HERE								  *
+	/*************************************************************************************/
+/*
+Let Earth's rotation rate be 3s
+http://www.sjsu.edu/faculty/watkins/orbital.htm
+*/
+
+#loading-animation-earth{
+	height: 10px;
+	width: 10px;
+	background-color: #3498DB;
+	border-radius: 50%;
+	box-shadow: 0px 0px 25px #FFF;
+}
+
+#loading-animation-0{/*Earth*/
+	display: block;/*because block*/
+	/*defining size*/
+	width: 150px;
+	height: 150px;
+	/*Centering it*/
+	position: relative;
+	left: 50%;
+	top: 50%;
+	/*50%, 50% moves the top left corner to the center; however, we want the center of the animation at the center, so we shift it*/
+	margin-top: -75px;
+	margin-left: -75px;
+	/*margin: -75px 0 0 75px; not sure why margin was used, will test later*/
+	border: 3px solid transparent;
+	border-top-color: #3498DB;
+	z-index: 100;
+	border-radius: 50%;
+	-webkit-animation: spin 3s linear infinite;
+	animation: spin 3s linear infinite;	
+}
+
+/*
+#loading-animation-0-orb{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width:6px;
+	height:6px;
+	border-radius: 50%;
+	background-color: #3498DB;
+	-webkit-animation: spin 3s linear infinite;
+	animation: spin 3s linear infinite;		
+}*/
+
+/*BEFORE AND AFTER INSERTS STUFF TO BEFORE AND AFTER OF EVERY INSTANCE OF THE THING YOU'RE APPENDING TO*/
+#loading-animation-0:before{/*Mercury*/
+	content:"";
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	right: 40px;
+	bottom: 40px;
+	border: 1px solid transparent;
+	border-top-color: #808080;
+	border-radius: 50%;
+	-webkit-animation: spin 1.87s linear infinite;
+	animation: spin 1.87s linear infinite;	
+}
+
+#loading-animation-0:after{/*Venus*/
+	content: "";
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	border: 3px solid transparent;
+	border-top-color: #F9C922;
+	border-radius: 50%;
+	-webkit-animation: spin 2.56s linear infinite;
+	animation: spin 2.56s linear infinite;	
+}
+
+/*for webkit browsers*/
+@-webkit-keyframes spin{
+	0%{
+		-webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */		
+	}
+	100%{
+ 		-webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */		
+	}
+}
+
+/*************************************************************************************
+	/								FADE OUT HERE								  *
+	/*************************************************************************************/
+.end #sun{
+	opacity: 0;
+	-webkit-transition: opacity 1.5s;
+	transition: opacity 1.5s;
+}
+.end .loading-animation-0{
+	opacity: 0;
+	-webkit-transition: opacity 1.5s;
+	transition: opacity 1.5s;
+}
+
+.end .left-curtain{
+}
+
+.end .right-curtain{
+}
