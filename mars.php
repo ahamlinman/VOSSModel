@@ -106,7 +106,7 @@
 		               </div>
 		                <div class="row">
 		                    <div class="col-xs-12 col-sm-7">
-		                        <p>The month March is derived from Mars. Mars was named by the Romans after their god Ares, the god of war, for its redness in color that reminded them of blood. The Egyptians also had a similar naming scheme, naming Mars “Her Desher”, translating to “the red one”.</p>
+		                        <p>The month of March got its name from Mars. Mars was named by the Romans after their god Ares, the god of war, for its redness in color that reminded them of blood. The Egyptians also had a similar naming scheme, naming Mars “Her Desher”, translating to “the red one”.</p>
 		                        <p>Due to the fact that Mars is easily spotted with the naked eye, it is unsure who first spotted Mars. In 1659, however, Christian Huygens saw the Syrtis Major on the surface of Mars and from then on was convinced that there was life on Mars. In 1877, the astronomer Giovanni Schiaparelli found lines on the surface of Mars that crossed over each other. He believed them to be water canals made by intelligent life on Mars; however, they were simply the wind curvatures on the planet. Also in 1877, the astronomer Asaph Hall discovered Mars’ two moons.</p>
 		                    </div>
 		                    <div class="col-xs-12 col-sm-5">

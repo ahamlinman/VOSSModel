@@ -31,7 +31,7 @@
 		               </div>
 		                <div class="row">
 		                    <div class="col-xs-12 col-sm-7">
-		                        <p>Jupiter was discovered in 1610 by Galileo who noticed the four large moons around Jupiter and saw that they were moving around the planet. This was the first discovery that found that the center of motion isn’t necessarily around Earth. Because of this discovery of the moons moving around Jupiter, Copernicus’s heliocentric theory about the motion of planets began to receive support. The Great Red Spot on Jupiter was discovered by Cassini or Robert Hooke in the 17th century.</p>
+		                        <p>Jupiter was discovered in 1610 by Galileo, who noticed the four large moons around Jupiter and saw that they were moving around the planet. The discovery of these moons helped show people that the Earth was not the center of our universe, which led to more people supporting Copernicus' heliocentric model of the solar system. The Great Red Spot on Jupiter was discovered by Cassini or Robert Hooke in the 17th century.</p>
 		                    </div>
 		                    <div class="col-xs-12 col-sm-5">
 		                        <img class="img-responsive img-rounded" src="images/jupiter/opt/jupiter.jpg">

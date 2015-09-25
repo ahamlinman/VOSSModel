@@ -33,22 +33,6 @@
                 </div>
             </section>
 
-            <!--<section class="location">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-8 location-info">
-                            <h2>Open House</h2>
-                            <p>Come enjoy a fun filled afternoon of games, activities, and exploration. Allow your mind to wander as you imagine life throughout the Solar System! 
-							<br> <br> Saturday, April 18, 2015 <br>11:30 A.M. - 4:00 P.M. <br> <br> Lawn near Hall for Discovery and Learning Research <br>249 S. Martin Jischke Drive, West Lafayette, IN <br> Between DLR and PUPD Buildings<br><br>Parking available in gravel lot at the corner of Gates Rd. and Nimitz Dr.</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 map">
-							
-                            <img class="img-responsive img-rounded" src="images/map.jpg" />
-                        </div>
-                    </div>
-                </div>
-            </section>-->
-
             <section class="voss">
                 <div class="container">
                     <div class="row">

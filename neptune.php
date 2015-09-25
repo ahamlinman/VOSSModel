@@ -49,7 +49,7 @@
            </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-7 col-sm-push-5">
-				<p>Neptune has a mass about 17 times greater than Earth, meaning that about four Earth’s can fit inside of it. Neptune’s inner core alone is the mass of the Earth. Because of being so much farther from the Sun, Neptune receives only 1/900 of the solar energy that reaches the Earth. However, Neptune does have its own heat source and expels 2.7 times more energy than it receives. </p>
+				<p>Neptune has a mass about 17 times greater than the Earth's, meaning that about four Earths can fit inside of it. Neptune’s inner core alone is the mass of the Earth. Because of being so much farther from the Sun, Neptune receives only 1/900 of the solar energy that reaches the Earth. However, Neptune does have its own heat source and expels 2.7 times more energy than it receives. </p>
                 </div>
                 <div class="col-xs-12 col-sm-5 col-sm-pull-7">
                     <img class="img-responsive img-rounded" src="images/Neptune/opt/Neptune_Int.jpg">
@@ -67,7 +67,7 @@
            </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-7">
-				<p>Neptune is one of the two ice giant, the smaller of the two. Neptune is a very cold planet, with an average temperature of -329 degrees Fahrenheit. Neptune is made up mainly of hydrogen, helium, water, silicates, and methane. The methane gas absorbs all of the red light, which gives Neptune’s surface a blue glow. Thick clouds cover Neptune’s surface and move at very high speeds of up to 1,300 mph. These winds created the largest storm ever recorded, called the Great Dark Spot of 1989, lasting about five years. Neptune also has very thin rings made up of ice particles and dust grains that could be clumped together by a carbon-based substance. </p>
+				<p>Neptune is the smaller of our solar system's two ice giants. Neptune is a very cold planet, with an average temperature of -329 degrees Fahrenheit. Neptune is made up mainly of hydrogen, helium, water, silicates, and methane. The methane gas absorbs all of the red light, which gives Neptune’s surface a blue glow. Thick clouds cover Neptune’s surface and move at very high speeds of up to 1,300 mph. These winds created the largest storm ever recorded, called the Great Dark Spot of 1989, which lasted about five years. Neptune also has very thin rings made up of ice particles and dust grains that could be clumped together by a carbon-based substance. </p>
 				</div>
                 <div class="col-xs-12 col-sm-5">
                     <img class="img-responsive img-rounded" src="images/Neptune/Neptune's Blue-green Atmosphere.jpg">
@@ -85,7 +85,7 @@
            </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-7 col-sm-push-5">
-				<p>Neptune has thirteen known satellites. Triton is Neptune’s largest satellite. It orbits in the opposite direction to that of its planet, which is the only known satellite to behave this way. Volcanoes are very active on its surface, and Triton’s surface temperature is -390 degrees Fahrenheit, which may be the coldest temperature in the entire Solar System.</p>
+				<p>Neptune has thirteen known satellites. Triton is Neptune’s largest satellite. It orbits in a direction opposite to that of its planet, and is the only known satellite to behave this way. Volcanoes are very active on its surface, and Triton’s surface temperature is -390 degrees Fahrenheit, which may be the coldest temperature in the entire Solar System.</p>
                 </div>
                 <div class="col-xs-12 col-sm-5 col-sm-pull-7">
                     <img class="img-responsive img-rounded" src="images/Neptune/feature.jpg">
@@ -103,7 +103,7 @@
            </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-7">
-				<p>Voyager 2 in 1989 revealed many new details about Triton. Found that its surface resembles the rigid and tough rind of a cantaloupe. It also captured many instances of volcanoes on Triton and the frosty plumes of liquid methane/nitrogen the erupted from them, drifting in the atmosphere. It returned the first close-up images of Neptune and its satellites. This space probe took 12 years to reach Neptune.</p>
+				<p>Voyager 2 in 1989 revealed many new details about Triton. For example, it found that its surface resembles the rigid and tough rind of a cantaloupe. It also captured many instances of volcanoes on Triton and the frosty plumes of liquid methane/nitrogen the erupted from them, drifting in the atmosphere. It returned the first close-up images of Neptune and its satellites. This space probe took 12 years to reach Neptune.</p>
                 </div>
                 <div class="col-xs-12 col-sm-5">
                     <img class="img-responsive img-rounded" src="images/Neptune/PIA00057_modest.jpg">

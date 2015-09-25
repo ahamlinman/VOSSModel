@@ -49,7 +49,7 @@
 		                <div class="row">
 		                    <div class="col-xs-12 col-sm-7 col-sm-push-5">
 		                        <p>Mercury is the smallest planet in the solar system, with a radius of about 1500 miles. Mercury is the densest planet in the solar system, with a heavily metallic core making up 80% of the entire planet.</p>
-		                        <p>Mercury is also the closest planet to the sun. Throughout its orbit, Mercury’s distance from the tun ranges from 47 million kilometers to 70 million kilometers (29-43 million miles). If you were standing on the surface of the planet, the sun would appear about three times larger than it does on Earth. Due to the close proximity to the sun, Mercury completes an orbit around the sun every 88 days. One day on Mercury would be about 176 days on Earth.</p>
+		                        <p>Mercury is also the closest planet to the sun. Throughout its orbit, Mercury’s distance from the sun ranges from 47 million kilometers to 70 million kilometers (29-43 million miles). If you were standing on the surface of the planet, the sun would appear about three times larger than it does on Earth. Due to the close proximity to the sun, Mercury completes an orbit around the sun every 88 days. One day on Mercury would be about 176 days on Earth.</p>
 		                    </div>
 		                    <div class="col-xs-12 col-sm-5 col-sm-pull-7">
 		                        <img class="img-responsive img-rounded" src="images/mercury/opt/True_Mercury.jpg">

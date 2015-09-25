@@ -21,10 +21,13 @@
 		                        </div>
 		                    </div>
 		                </section>
-		                
-		                <p style="text-align: center;">Questions, Comments, or Concerns? <a href="mailto:vossweb@purdue.edu">Email us at vossweb@purdue.edu!</a></p>
-		                <p style="text-align: center;">Unfortunately, we cannot provide tours of the model. Please check back soon for information on self-guided tours.</p>
-		    
+		                <div class="container">
+		                    <div class="row">
+		                        <div class="col-xs-12">
+		                            <p>Questions, comments, or concerns? <a href="mailto:vossweb@purdue.edu">Email us at vossweb@purdue.edu!</a> Unfortunately, we cannot provide tours of the model. Please check back soon for information on self-guided tours.</p>
+		                        </div>
+		                    </div>
+		                </div>
 		    </div>
 		</div>
 		

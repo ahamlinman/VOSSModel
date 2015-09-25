@@ -120,7 +120,12 @@
 	               </div>
 	                <div class="row">
 	                    <div class="col-xs-12 col-sm-7 col-sm-push-5">
-	                        <p>Neil Armstrong was the first man on the moon after the 1969 Apollo 11 mission. Neil Armstrong graduated from Purdue in 1955 with a Bachelor of Science degree in Aeronautical Engineering.</p>
+	                        <p>Neil Armstrong
+	                            <ul>
+	                                <li>The first man to walk on the moon during the Apollo 11 mission in 1969.</li>
+	                                <li>Graduated from Purdue University in 1955 with a Bachelor of Science degree in Aeronautical Engineering.</li>
+	                            </ul>
+                            </p>
 	                    <p>Eugene A Cernan
 	                       <ul>
 	                           <li>Module pilot for the Apollo 10 mission that dealt with making sure all of the qualifications to go to the moon were satisfied.</li>

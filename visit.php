@@ -13,12 +13,21 @@
 	<div id="mainContainer">        
 		<div id="wrapper">
 				<?php include('fragments/load.html'); ?>
+           
+           <section class="hero" style="background: none;">
+		                    <div class="overlay">
+		                        <div class="container">
+		                            <h1>Visit The Model</h1>
+		                        </div>
+		                    </div>
+		                </section>
+           
             <section>
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-8 location-info">
                             <h2>Location</h2>
-                            <p>The VOSS model can be found along South Martin Jischke Drive at Purdue University's West Lafayette campus. It is located between Terry Memorial House (the Purdue University Police Department building) and the Discovery Learning Research Center.</p>
+                            <p>The VOSS Model can be found along South Martin Jischke Drive at Purdue University's West Lafayette campus. It is located between Terry Memorial House (the Purdue University Police Department building) and the Discovery Learning Research Center.</p>
                         </div>
                         <div class="col-xs-12 col-sm-4 map">
                             <img class="img-responsive img-rounded" src="images/map.jpg" />
