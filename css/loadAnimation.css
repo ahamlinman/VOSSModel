@@ -31,8 +31,8 @@
 }
 
 /*************************************************************************************
-	/								ACTUAL ANIMATIONS HERE								  *
-	/*************************************************************************************/
+ *								ACTUAL ANIMATIONS HERE								 *
+ *************************************************************************************/
 /*
 Let Earth's rotation rate be 3s
 http://www.sjsu.edu/faculty/watkins/orbital.htm
@@ -67,21 +67,8 @@ http://www.sjsu.edu/faculty/watkins/orbital.htm
 	animation: spin 3s linear infinite;	
 }
 
-/*
-#loading-animation-0-orb{
-	position: relative;
-	left: 50%;
-	top: 50%;
-	width:6px;
-	height:6px;
-	border-radius: 50%;
-	background-color: #3498DB;
-	-webkit-animation: spin 3s linear infinite;
-	animation: spin 3s linear infinite;		
-}*/
-
-/*BEFORE AND AFTER INSERTS STUFF TO BEFORE AND AFTER OF EVERY INSTANCE OF THE THING YOU'RE APPENDING TO*/
-#loading-animation-0:before{/*Mercury*/
+/* Note that :before and :after will insert things before or after EVERY element matched by the selector. */
+#loading-animation-0:before { /*Mercury*/
 	content:"";
 	position: absolute;
 	top: 40px;
@@ -95,7 +82,7 @@ http://www.sjsu.edu/faculty/watkins/orbital.htm
 	animation: spin 1.87s linear infinite;	
 }
 
-#loading-animation-0:after{/*Venus*/
+#loading-animation-0:after { /*Venus*/
 	content: "";
 	position: absolute;
 	top: 20px;
@@ -123,9 +110,9 @@ http://www.sjsu.edu/faculty/watkins/orbital.htm
 	}
 }
 
-/*************************************************************************************
-	/								FADE OUT HERE								  *
-	/*************************************************************************************/
+/******************************************************************************
+ *								FADE OUT HERE								  *
+ ******************************************************************************/
 .end #sun{
 	opacity: 0;
 	-webkit-transition: opacity 1.5s;

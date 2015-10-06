@@ -69,7 +69,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 facebook">
                                         <h2>Facebook</h2>
-                                        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FVossModel&amp;width&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:400px;" allowTransparency="true"></iframe>
+                                        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FVossModel&amp;width&amp;height=400&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:400px;" allowTransparency="true"></iframe>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 twitter">
                                         <h2>Twitter</h2>

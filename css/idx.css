@@ -1,7 +1,7 @@
-/*importing fonts
-still need to do the following
-1 make font size lighter by only importing the basic character sets
-*/
+/********************
+ * WEB FONT IMPORTS *
+ ********************/
+
 /*
  * Web Fonts from fontspring.com
  * All OpenType features and all extended glyphs have been removed.
@@ -39,7 +39,7 @@ still need to do the following
 }
 
 @font-face {
-    font-family: 'code_pro_demoregular';
+    font-family: code_pro_demoregular;
     src: url('../fonts/Code_Pro_Demo-webfont.eot');
     src: url('../fonts/Code_Pro_Demo-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/Code_Pro_Demo-webfont.woff2') format('woff2'),
@@ -51,18 +51,9 @@ still need to do the following
 
 }
 
-/*changing highlight color
-1 check if works on ie and opera and older chrome
-*/
-::selection {
-    color: #FFFFFF;
-    background: #66CCFF;
-}
-
-::-moz-selection {
-    color: #FFFFFF;
-    background: #66CCFF;
-}/*for mozilla firefox*/
+/********************
+ * MAIN PAGE STYLES *
+ ********************/
 
 html, body {
     background: black;
@@ -129,27 +120,27 @@ section {
     text-align: center;
 }
 
-/*headers and paragraph changes*/
-h1 {
+/***************
+ * TEXT STYLES *
+ ***************/
+
+h1, h2, h3 {
     font-family: handel_gothic_fsbold;
-    font-size: 400%;
     font-variant: small-caps;
     display: block;
 }
 
+h1 {
+    font-size: 400%;
+}
+
 h2 {
-    font-family: handel_gothic_fsbold;
     font-size: 200%;
-    font-variant: small-caps;
-    display: block;
     margin-top: 10px;
 }
 
 h3 {
-    font-family: handel_gothic_fsbold;
     font-size: 100%;
-    font-variant: small-caps;
-    display: block;
 }
 
 h4 {
@@ -166,15 +157,10 @@ ul, li {
     margin-left: 1em;
 }
 
-/*changing links*/
 a:link {
     text-decoration: none;
 }
 
-/*top menu*/
-
-/*.menu{position: relative; clear: both; background: black; margin: 0 auto;}
-	.menu em{font-size: 120%; margin-left: 0; margin-right: 0px; position: relative; bottom: 10px; right: 20px}*/
 header {
     color: white;
 }
@@ -188,6 +174,7 @@ header a {
     color: white;
 }
 
+/* Overall header of page */
 .navbar {
     min-height: 80px;
     line-height: 80px;
@@ -195,10 +182,12 @@ header a {
     border: none;
 }
 
+/* VOSS logo and text */
 .container > .navbar-header {
     margin-left: 0;
 }
 
+/* VOSS logo */
 @media (min-width: 992px) {
     .navbar > .container .navbar-brand {
         margin-left: 0;
@@ -213,60 +202,21 @@ header a {
     padding-top: 5px;
 }
 
+/* Toggle on mobile */
 .navbar-top .navbar-toggle {
     margin: 0;
     padding: 0 1.5em;
     border: none;
 }
 
+/* "Visiting our Solar System" text */
 .navbar-text {
     line-height: 80px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.collapse.in > .navbar-nav, .collapsing > .navbar-nav {
-    margin: 0;
-}
-
-.in.top-links, .collapsing.top-links {
-    right: 0;
-}
-
-.in.top-links li, .collapsing.top-links li {
-    float: none;
-}
-
-.top-links a:focus {
-    background-color: inherit !important;
-    color: inherit;
-}
-
-.menu, .planet-wrapper {
-    margin: 0 auto;
-}
-
-.menu {
-    height: 80px;
-    line-height: 80px;
-    position: relative;
-}
-
-.logo {
-    position: absolute;
-    left: 1em;
-}
-
-.logo em {
-    margin-left: 0.5em;
-    font-style: italic;
-}
-
-.logo img {
-    float: left;
-    padding-top: 5px;
-}
-
+/* Main links on top of page */
 .top-links {
     background-color: black;
 }
@@ -284,10 +234,24 @@ header a {
 }
 
 .top-links ul > li > a:hover {
+    color: #fff;
     background-color: #333;
 }
 
-/*celestial menu*/
+/* Collapsing menus */
+.collapse.in > .navbar-nav, .collapsing > .navbar-nav {
+    margin: 0;
+}
+
+.in.top-links, .collapsing.top-links {
+    right: 0;
+}
+
+.in.top-links li, .collapsing.top-links li {
+    float: none;
+}
+
+/* Wrapper for planet links (partly to cut off orb) */
 .planet-wrapper {
     position: relative;
     z-index: 1;
@@ -304,11 +268,6 @@ header a {
     position: relative;
     overflow: hidden;
     margin-bottom: 0;
-    border-radius: 0;
-}
-
-nav ul li a:hover {
-    color: #FFFFFF;
 }
 
 .planet-links ul {
@@ -347,6 +306,7 @@ nav ul li a:hover {
     display: none;
 }
 
+/* Desktop planet link styles */
 @media (min-width: 992px) {
     .planet-links {
         height: 2em;
@@ -374,7 +334,6 @@ nav ul li a:hover {
 }
 
 /** Planet link colors **/
-
 #sun a:hover { color: #F99D1C; }
 #mercury a:hover { color: #F1F1F1; }
 #venus a:hover { color: #D7C3A3; }
@@ -479,10 +438,4 @@ nav ul li a:hover {
     #orb.uranus { left: 797px; }
     #orb.neptune { left: 901px; }
     #orb.kuiper { left: 1077px; }
-}
-
-/*footer*/
-#footer {
-    background: #101213;
-    margin: 0;
 }
