@@ -7,6 +7,11 @@ $(function() {
                     .addClass("fly-thru")
             );
         }
+
+        // Hide the loading spinner
+        $(".loading-curtain").fadeTo("slow", 0, function() {
+            $(".loading-curtain").css("z-index","-100");
+        });
     }
     
     loadHandler();
@@ -40,11 +45,6 @@ $(function() {
                 if($(this).attr("class").split(" ").indexOf("in") >= 0) {
                     $(this).collapse("hide");
                 }
-            });
-            
-            // Hide the loading spinner
-            $(".loading-curtain").fadeTo("slow", 0, function() {
-                $(".loading-curtain").css("z-index","-100");
             });
             
             // Call functions required on every page load
