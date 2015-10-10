@@ -62,6 +62,10 @@ html, body {
     color: white;
 }
 
+.paragraph {
+    
+}
+
 .wrapper {
     min-height: 100%;
     height: auto !important;
