@@ -14,13 +14,15 @@
                 <div id="wrapper">
                     <?php include('fragments/load.html'); ?>
                         
-                        <section style="background-color: lightblue;">
-                            <div class="container">
+                        <!-- THIS IS VERY HORRIBLE AND NEEDS TO BE UPDATED SEVERELY -->
+                        <!-- IT IS ONLY A PROTOTYPE FOR NOW!!!! -->
+                        <section style="background: url(../images/Home/NightModel.jpg); background-size: cover; background-position: 50%; padding: 0;">
+                            <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.1);">
                                 <div class="row">
-                                    <div class="col-xs-6" style="background-color: rgba(0, 0, 0, 0.5);">
-                                        <h1>The VOSS Model</h1>
-                                        <h3 style="font-size: 1.5em; font-family: Myriad,Helvetica,Arial,sans-serif; font-variant: normal; text-align: center;">The VOSS Model is a scaled model of the solar system, located in Discovery Park at Purdue University.</h3>
-                                        <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1.5em; display: block; margin: 1em;">Learn More</a>
+                                    <div class="col-xs-12 height-full" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <h1 style="text-align: center">The VOSS Model</h1>
+                                        <h3 style="font-size: 1.5em; font-family: Myriad,Helvetica,Arial,sans-serif; font-variant: normal; text-align: center; max-width: 60%; margin: 0 auto;">The VOSS Model is a scaled model of the solar system, located in Discovery Park at Purdue University.</h3>
+                                        <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1.5em; display: block; margin: 1em auto; max-width: 20em;">Learn More</a>
                                     </div>
                                 </div>
                             </div>
