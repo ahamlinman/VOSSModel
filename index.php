@@ -13,27 +13,64 @@
             <div id="mainContainer">
                 <div id="wrapper">
                     <?php include('fragments/load.html'); ?>
-
-                        <section class="hero">
-                            <div class="overlay">
-                                <div class="container">
-                                    <h1>The VOSS Model</h1>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section class="about">
+                        
+                        <section style="background-color: lightblue;">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-xs-12">
-                                        <h2>About the Model</h2>
-                                        <p>The VOSS Model is a scaled model of the solar system, located at Purdue University’s Discovery Park in West Lafayette, Indiana. The goal of the model is to carry out education, research, and outreach in STEM (Science, Technology, Engineering, Mathematics) and closely related fields. The model follows a Fibonacci Spiral Path, allowing visitors to take a journey through the solar system, stopping at each planet's plaza. Each plaza has an artistic sculpture of the planet, with a plaque containing educational and inspiring information. Each plaza’s base has a representation of constellations. The model itself caters to students, with hopes to learn more about the solar system, educators, with goals to inspire their students to learn about space, and the community, with intentions to use the model as a relaxing, and visually aesthetic environment. The VOSS model is a versatile collection of art and education that will continue to inspire visitors for years.</p>
-                                        <img class="img-responsive img-rounded" style="margin: 0 auto;" src="images/Home/nightmodel.jpg" />
+                                    <div class="col-xs-6" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <h1>The VOSS Model</h1>
+                                        <h3 style="font-size: 1.5em; font-family: Myriad,Helvetica,Arial,sans-serif; font-variant: normal; text-align: center;">The VOSS Model is a scaled model of the solar system, located in Discovery Park at Purdue University.</h3>
+                                        <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1.5em; display: block; margin: 1em;">Learn More</a>
                                     </div>
                                 </div>
                             </div>
                         </section>
 
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="img-responsive img-rounded" style="background-color: lightyellow; height: 200px;"></div>
+                                            </div>
+                                            <div class="col-xs-12" style="text-align: center;">
+                                                <h2>Visit The Model</h2>
+                                                <p>Learn more about the VOSS Model at Purdue and plan your visit, or take a virtual fly-through tour.</p>
+                                                <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1em; display: block; margin: 1em;">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="img-responsive img-rounded" style="background-color: rgba(255, 160, 96, 1.0); height: 200px;"></div>
+                                            </div>
+                                            <div class="col-xs-12" style="text-align: center;">
+                                                <h2>Find Resources</h2>
+                                                <p>Find out more about integrating the VOSS Model into your curriculum.</p>
+                                                <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1em; display: block; margin: 1em;">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="img-responsive img-rounded" style="background-color: rgba(255, 160, 160, 1.0); height: 200px;"></div>
+                                            </div>
+                                            <div class="col-xs-12" style="text-align: center;">
+                                                <h2>Play Games</h2>
+                                                <p>Kids, learn more about our solar system with these exciting games.</p>
+                                                <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1em; display: block; margin: 1em;">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                       
                         <section class="voss">
                             <div class="container">
                                 <div class="row">
@@ -46,23 +83,6 @@
                                 </div>
                             </div>
                         </section>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6">
-                                    <h2>Virtual Fly Through Tour</h2>
-                                    <p>
-                                        Unable to visit us in person? You can still experience a trip through the virtual fly through tour!
-                                    </p>
-                                </div>
-                                <div class="col-xs-12 col-sm-6">
-                                    <div id="fly-thru-placeholder" data-src="https://purduevoss.makes.org/popcorn/2q52_">
-                                        <h4>Flash Required</h4>
-                                        <p>Please visit this site on a computer with Flash installed to experience the virtual tour.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <section class="social-media">
                             <div class="container">
