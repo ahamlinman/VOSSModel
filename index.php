@@ -16,7 +16,7 @@
                         
                         <!-- THIS IS VERY HORRIBLE AND NEEDS TO BE UPDATED SEVERELY -->
                         <!-- IT IS ONLY A PROTOTYPE FOR NOW!!!! -->
-                        <section style="background: url(../images/Home/NightModel.jpg); background-size: cover; background-position: 50%; padding: 0;">
+                        <section style="background: url(images/Home/NightModel.jpg); background-size: cover; background-position: 50%; padding: 0;">
                             <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.1);">
                                 <div class="row">
                                     <div class="col-xs-12 height-full" style="background-color: rgba(0, 0, 0, 0.5);">
@@ -34,7 +34,7 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <div class="img-responsive img-rounded" style="background-color: lightyellow; height: 200px;"></div>
+                                                <img class="img-responsive img-rounded" style="height: 200px; width: 100%;" src="images/Home/sun.jpg">
                                             </div>
                                             <div class="col-xs-12" style="text-align: center;">
                                                 <h2>Visit The Model</h2>
@@ -47,7 +47,7 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <div class="img-responsive img-rounded" style="background-color: rgba(255, 160, 96, 1.0); height: 200px;"></div>
+                                                <img class="img-responsive img-rounded" style="height: 200px; width: 100%;" src="images/Home/resources.jpg">
                                             </div>
                                             <div class="col-xs-12" style="text-align: center;">
                                                 <h2>Find Resources</h2>
@@ -60,7 +60,7 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <div class="img-responsive img-rounded" style="background-color: rgba(255, 160, 160, 1.0); height: 200px;"></div>
+                                                <img class="img-responsive img-rounded" src="images/Home/diegostudents.jpg" style="height: 200px; width: 100%">
                                             </div>
                                             <div class="col-xs-12" style="text-align: center;">
                                                 <h2>Play Games</h2>
