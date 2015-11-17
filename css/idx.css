@@ -184,6 +184,7 @@ header a {
     line-height: 80px;
     margin: 0;
     border: none;
+    border-radius: 0;
 }
 
 /* VOSS logo and text */
