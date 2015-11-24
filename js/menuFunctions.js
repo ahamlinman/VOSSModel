@@ -67,13 +67,17 @@ $(function() {
      * Handler to ensure that inner link clicks utilize the XHR loading technique
      * This is especially important for the orb animation on planet links
      */
-    $("header a").click(function(event) {
+    $("header a, .actionbox .btn").click(function(event) {
         var data = {};
         
         // If this is a planet link, include info required for orb animation
         var link = event.currentTarget;
         if(planetNames.indexOf(link.parentElement.id) > -1) {
             data["planet"] = link.parentElement.id;
+        }
+        
+        if(window.scrollY > 0) {
+            $("html, body").animate({ scrollTop: 0 });
         }
         
         History.pushState(data, null, this.href);

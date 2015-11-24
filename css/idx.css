@@ -74,12 +74,19 @@ html, body {
 }
 
 .hero {
-    background: url('../images/VOSS.jpg') no-repeat center center;
     background-size: cover;
     padding: 0;
 }
 
-.hero .overlay {
+.reposition-image {
+    background-position: 50%;
+}
+
+.hero .padded-inner {
+    padding: 2em 0 2.5em 0;
+}
+
+.overlay {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
@@ -90,9 +97,32 @@ html, body {
     text-align: center;
 }
 
+.hero h4 {
+    font-size: 1.5em;
+    font-weight: normal;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0 0.5em;
+}
+
 section {
     padding: 1em;
     color: white;
+}
+
+.actionbox {
+    text-align: center;
+    padding: 1em;
+}
+
+.actionbox .btn {
+    background-color: #444;
+    color: #fff;
+    transition: background-color 0.15s ease;
+}
+
+.actionbox .btn:hover {
+    background-color: #555;
 }
 
 .voss img {

@@ -13,16 +13,13 @@
             <div id="mainContainer">
                 <div id="wrapper">
                     <?php include('fragments/load.html'); ?>
-                        
-                        <!-- THIS IS VERY HORRIBLE AND NEEDS TO BE UPDATED SEVERELY -->
-                        <!-- IT IS ONLY A PROTOTYPE FOR NOW!!!! -->
-                        <section style="background: url(images/Home/NightModel.jpg); background-size: cover; background-position: 50%; padding: 0;">
-                            <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.1);">
+
+                        <section class="hero reposition-image" style="background-image: url(images/Home/NightModel.jpg);">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-xs-12 height-full" style="background-color: rgba(0, 0, 0, 0.5);">
-                                        <h1 style="text-align: center">The VOSS Model</h1>
-                                        <h3 style="font-size: 1.5em; font-family: Myriad,Helvetica,Arial,sans-serif; font-variant: normal; text-align: center; max-width: 60%; margin: 0 auto;">The VOSS Model is a scaled model of the solar system, located in Discovery Park at Purdue University.</h3>
-                                        <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1.5em; display: block; margin: 1em auto; max-width: 20em;">Learn More</a>
+                                    <div class="col-xs-12 overlay padded-inner">
+                                        <h1>The VOSS Model</h1>
+                                        <h4>A scaled model of the solar system, located in Discovery Park at Purdue University.</h4>
                                     </div>
                                 </div>
                             </div>
@@ -31,41 +28,41 @@
                         <section>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-4">
+                                    <div class="col-xs-12 col-sm-4 actionbox">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <img class="img-responsive img-rounded" style="height: 200px; width: 100%;" src="images/Home/sun.jpg">
+                                                <img class="img-responsive img-rounded" src="images/Home/sun.jpg">
                                             </div>
-                                            <div class="col-xs-12" style="text-align: center;">
+                                            <div class="col-xs-12">
                                                 <h2>Visit The Model</h2>
                                                 <p>Learn more about the VOSS Model at Purdue and plan your visit, or take a virtual fly-through tour.</p>
-                                                <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1em; display: block; margin: 1em;">Learn More</a>
+                                                <a href="visit.php" class="btn btn-lg btn-block">Learn More</a>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    <div class="col-xs-12 col-sm-4">
+                                    <div class="col-xs-12 col-sm-4 actionbox">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <img class="img-responsive img-rounded" style="height: 200px; width: 100%;" src="images/Home/resources.jpg">
+                                                <img class="img-responsive img-rounded" src="images/Home/resources.jpg">
                                             </div>
-                                            <div class="col-xs-12" style="text-align: center;">
+                                            <div class="col-xs-12">
                                                 <h2>Find Resources</h2>
                                                 <p>Find out more about integrating the VOSS Model into your curriculum.</p>
-                                                <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1em; display: block; margin: 1em;">Learn More</a>
+                                                <a href="teachers.php" class="btn btn-lg btn-block">Learn More</a>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    <div class="col-xs-12 col-sm-4">
+                                    <div class="col-xs-12 col-sm-4 actionbox">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <img class="img-responsive img-rounded" src="images/Home/diegostudents.jpg" style="height: 200px; width: 100%">
+                                                <img class="img-responsive img-rounded" src="images/Home/diegostudents.jpg">
                                             </div>
-                                            <div class="col-xs-12" style="text-align: center;">
+                                            <div class="col-xs-12">
                                                 <h2>Play Games</h2>
                                                 <p>Kids, learn more about our solar system with these exciting games.</p>
-                                                <a href="#" style="text-align: center; background-color: rgba(64, 64, 64, 1.0); color: white; padding: 1em; display: block; margin: 1em;">Learn More</a>
+                                                <a href="games.php" class="btn btn-lg btn-block">Learn More</a>
                                             </div>
                                         </div>
                                     </div>
