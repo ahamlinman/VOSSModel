@@ -240,7 +240,7 @@ header a {
     transition: background-color 0.15s, color 0.15s;
 }
 
-.top-links ul > li > a:hover {
+.top-links ul > li > a:hover, .top-links ul > li > a:focus {
     color: #fff;
     background-color: #333;
 }
