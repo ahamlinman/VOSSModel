@@ -1,14 +1,20 @@
 $(function() {
     var loadHandler = function() {
-        if($("#fly-thru-placeholder").length > 0 && swfobject.getFlashPlayerVersion().major !== 0) {
-            $("#fly-thru-placeholder").replaceWith(
-                $("<iframe>").attr("src", $("#fly-thru-placeholder").attr("data-src"))
-                    .attr("mozallowfullscreen", true).attr("webkitallowfullscreen", true).attr("allowfullscreen", true)
+        // The flythrough video starts out as a placeholder that explains the Flash requirement
+        // If Flash player is installed, we can get rid of that and embed Popcorn Maker instead
+        var flythruPlaceholder = $("#fly-thru-placeholder");
+        if(flythruPlaceholder.length > 0 && swfobject.getFlashPlayerVersion().major !== 0) {
+            flythruPlaceholder.replaceWith(
+                $("<iframe>")
+                    .attr("src", flythruPlaceholder.attr("data-src"))
+                    .attr("mozallowfullscreen", true)
+                    .attr("webkitallowfullscreen", true)
+                    .attr("allowfullscreen", true)
                     .addClass("fly-thru")
             );
         }
 
-        // Hide the loading spinner
+        // The loading curtain is a full-page animation shown on page load
         $(".loading-curtain").fadeTo("slow", 0, function() {
             $(".loading-curtain").css("z-index","-100");
         });
@@ -34,13 +40,13 @@ $(function() {
      */
     var loadPage = function(url) {
         $("#mainContainer").load(encodeURI(url) + " #wrapper", "", function(responseText) {
-        	// Ensure that the Twitter plugin is visible wherever it is used.
-            // Without this, it will not load when the homepage is loaded.
+        	// Ensure that the Twitter plugin is visible wherever it is used
+            // Without this, it will not load when the homepage is loaded via this function
             if(typeof twttr !== "undefined") {
                 twttr.widgets.load();
             }
             
-            // If on mobile, ensure that any expanded navigation is hidden.
+            // If on mobile, ensure that any expanded navigation is hidden
             $(".collapse").each(function() {
                 if($(this).attr("class").split(" ").indexOf("in") >= 0) {
                     $(this).collapse("hide");
@@ -65,7 +71,7 @@ $(function() {
         /*console.log("Push state", this.href);*/
         var data = {};
         
-        // If this is a planet link, include info for orb animation
+        // If this is a planet link, include info required for orb animation
         var link = event.currentTarget;
         if(planetNames.indexOf(link.parentElement.id) > -1) {
             data["planet"] = link.parentElement.id;
@@ -93,7 +99,6 @@ $(function() {
      */
     $(window).bind("statechange", function() {
         var state = History.getState();
-        /*console.log("State change", state);*/
         
         loadPage(state.url);
         
@@ -116,8 +121,6 @@ $(function() {
 /***********************************
  * Animation for planet links menu *
  **********************************/
-
-/* This is really being handled now with pure CSS */
     
     /**
      * Make the orb visible and animate it to its proper color, size, and position.
