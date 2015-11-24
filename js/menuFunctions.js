@@ -58,7 +58,7 @@ $(function() {
             
             // Reset the title of the page
             var dummyElement = $(document.createElement("dummy")).html(responseText);
-            var title = $(dummyElement).find("title")[0].innerText;
+            var title = $(dummyElement).find("title").text();
             document.title = title;
         });
     };
