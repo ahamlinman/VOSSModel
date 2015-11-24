@@ -64,11 +64,10 @@ $(function() {
     };
 
     /**
-     * Handler to ensure that navbar link clicks utilize the XHR loading technique.
-     * This is especially important for the orb animation on planet links.
+     * Handler to ensure that inner link clicks utilize the XHR loading technique
+     * This is especially important for the orb animation on planet links
      */
-    $("header a").click(function() {
-        /*console.log("Push state", this.href);*/
+    $("header a").click(function(event) {
         var data = {};
         
         // If this is a planet link, include info required for orb animation
