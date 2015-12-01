@@ -133,7 +133,7 @@ section {
     max-height: 250px;
 }
 
-.social-media .facebook iframe, .social-media .twitter iframe {
+.social-media iframe {
     background-color: white;
     border-radius: 6px;
 }
