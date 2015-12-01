@@ -45,6 +45,11 @@ $(function() {
             if(typeof twttr !== "undefined") {
                 twttr.widgets.load();
             }
+
+            // Something similar is required for Facebook
+            if(typeof FB !== "undefined") {
+                FB.XFBML.parse();
+            }
             
             // If on mobile, ensure that any expanded navigation is hidden
             $(".collapse").each(function() {
@@ -152,6 +157,26 @@ $(function() {
 			fjs.parentNode.insertBefore(js, fjs);
 		}
 	})(document, "script", "twitter-wjs");
+
+/****************************************************
+ * Facebook widget initialization and handling code *
+ ***************************************************/
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    /**
+     * The Facebook widget will not resize on its own in response to changes in the
+     * size of the page. So, we have to do it ourselves.
+     */
+    $(window).resize(function() {
+        $(".fb-page").attr("data-width", $(".facebook").width());
+        FB.XFBML.parse();
+    });
 
 /********************************
  * Add js class to root element *

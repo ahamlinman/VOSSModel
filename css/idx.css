@@ -134,8 +134,6 @@ section {
 }
 
 .social-media .facebook iframe, .social-media .twitter iframe {
-    width: 1px !important;
-    min-width: 100% !important;
     background-color: white;
     border-radius: 6px;
 }

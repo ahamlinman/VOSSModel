@@ -86,11 +86,11 @@
                         <section class="social-media">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-6 facebook">
+                                    <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-push-1 facebook">
                                         <h2>Facebook</h2>
-                                        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FVossModel&amp;width&amp;height=400&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:400px;" allowTransparency="true"></iframe>
+                                        <div class="fb-page" data-href="https://www.facebook.com/VOSSModel" data-width="500" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/VOSSModel"><a href="https://www.facebook.com/VOSSModel">VOSS Model</a></blockquote></div></div>
                                     </div>
-                                    <div class="col-xs-12 col-sm-6 twitter">
+                                    <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-push-1 twitter">
                                         <h2>Twitter</h2>
                                         <a class="twitter-timeline" href="https://twitter.com/VOSSModel" data-widget-id="567862503863230465">Tweets by @VOSSModel</a>
                                     </div>
