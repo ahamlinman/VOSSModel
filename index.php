@@ -103,7 +103,7 @@
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <h2>Contact Us</h2>
-                                        <p>Please email <a href="mailto:vossweb@purdue.edu">vossweb@purdue.edu</a> with comments, questions, and concerns. Unfortunately, we cannot provide tours of the model. Please check back soon for information about self-guided tours.</p>
+                                        <p>Please email <a href="mailto:vossweb@purdue.edu">vossweb@purdue.edu</a> with comments, questions, and concerns. Unfortunately, we cannot provide tours of the model. Please contact us for information about self-guided tours.</p>
                                     </div>
                                 </div>
                             </div>

@@ -25,7 +25,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p>Questions, comments, or concerns? <a href="mailto:vossweb@purdue.edu">Email us at vossweb@purdue.edu!</a> Unfortunately, we cannot provide tours of the model. Please check back soon for information on self-guided tours.</p>
+                                    <p>Please email <a href="mailto:vossweb@purdue.edu">vossweb@purdue.edu</a> with comments, questions, and concerns. Unfortunately, we cannot provide tours of the model. Please contact us for information on self-guided tours.</p>
                                 </div>
                             </div>
                         </div>
