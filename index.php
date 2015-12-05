@@ -48,7 +48,7 @@
                                             </div>
                                             <div class="col-xs-12">
                                                 <h2>Find Resources</h2>
-                                                <p>Find out more about integrating the VOSS Model into your curriculum.</p>
+                                                <p>Find out more about integrating VOSS Model resources into your classroom and curriculum.</p>
                                                 <a href="teachers.php" class="btn btn-lg btn-block">Learn More</a>
                                             </div>
                                         </div>
@@ -60,8 +60,8 @@
                                                 <img class="img-responsive img-rounded" src="images/Home/diegostudents.jpg">
                                             </div>
                                             <div class="col-xs-12">
-                                                <h2>Play Games</h2>
-                                                <p>Kids, learn more about our solar system with these exciting games.</p>
+                                                <h2>Play and Learn</h2>
+                                                <p>Kids, learn more about space exploration and our solar system with these fun and exciting games.</p>
                                                 <a href="games.php" class="btn btn-lg btn-block">Learn More</a>
                                             </div>
                                         </div>
